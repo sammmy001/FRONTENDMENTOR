@@ -1,0 +1,27 @@
+.parent{
+  background-color:#D6E1F0 ;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container{
+  background-color: white;
+  border:none;
+  border-radius: 20px;
+  box-shadow:2px 2px #928f8fee;
+  width:20%;
+  text-align: center;
+  padding: 15px;
+}
+
+img{
+  border-radius: 10px;
+  width :100%;
+}
+@media only screen and (max-width:650px){
+  .container{
+    width:500px;
+  }
+}
