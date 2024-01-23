@@ -4,13 +4,15 @@
   display:flex;
   align-items: center;
   justify-content: center;
+  font-family: sans-serif;
 
 }
 .container{
   background-color: white;
   border:none;
-  border-radius: 20px;
-  box-shadow:2px 2px #928f8fee;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 5px 10px 18px #888888;  /* Component shadow added */
   width:20%;
   text-align: center;
   padding: 15px;
@@ -19,6 +21,7 @@
 
 img{
   border-radius: 10px;
+  border: 2px solid white;
   width :100%;
 }
 /* mobile view */
